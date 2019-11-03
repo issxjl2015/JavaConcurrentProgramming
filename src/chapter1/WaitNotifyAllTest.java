@@ -65,7 +65,7 @@ public class WaitNotifyAllTest {
         threadA.join();
         threadB.join();
         threadC.join();
-        
+
         System.out.println("main over");
     }
 }
